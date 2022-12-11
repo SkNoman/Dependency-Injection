@@ -18,17 +18,13 @@ class ImplementOne @Inject constructor() : One{
     //THIS CLASS BASICALLY IMPLEMENT THE INTERFACE
     //IN THIS CLASS WE OVERRIDE THE METHOD FROM INTERFACE
     override fun getName(name: String) {
-        Log.d("nlog", "Car name is Audi")
-        Log.d("Name",name)
+        Log.d("nlog",name)
     }
-
-
-
 }
 //THIS CLASS DEPENDENCY PROVIDED
 class Main @Inject constructor(private val one: One){
     fun getName(){
-        one.getName("Abdullah")
+        one.getName("From Main File")
     }
 }
 

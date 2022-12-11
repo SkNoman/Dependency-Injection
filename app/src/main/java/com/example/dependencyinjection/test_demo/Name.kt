@@ -3,6 +3,6 @@ import javax.inject.Inject
 
 class Name @Inject constructor(private val one:One){
     fun getName(){
-        one.getName("Exclusive")
+        one.getName("From Name Class")
     }
 }
