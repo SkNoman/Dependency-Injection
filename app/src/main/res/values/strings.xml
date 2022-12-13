@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">DependencyInjection</string>
+    <string name="content_description">content description</string>
+    <string name="exploring_dependency_injection">Exploring Dependency Injection</string>
+    <string name="user_name">User name</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign In</string>
 </resources>
